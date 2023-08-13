@@ -1,0 +1,107 @@
+/* .navbar.navbar-dark.bg-info {
+	border-bottom: 2px solid black;
+} */
+#intro {
+	background-image: url("https://toppng.com//public/uploads/preview/lines-smooth-minimalism-blue-purple-11569982822oa9cuwc9o0.jpg");
+	height: 100vh;
+	background-repeat: round;
+	background-size: cover;
+	/* width:100%; */
+	/* background-repeat: no-repeat; */
+  }
+.mask {
+	height: 100%;
+}
+@media (min-width: 992px) {
+	#intro {
+	  margin-top: 0px;
+	}
+}
+
+
+
+.btn.btn-outline-light.btn-lg.px-5 {
+	margin-top: 33px;
+	margin-bottom: -12px;
+}
+
+.d-flex.justify-content-center {
+	margin-top: 15%;
+}
+
+.card.text-white {
+	margin-top: -19%;
+ 	/* background-color: rgba(255,255,255,0.2);  */
+	 background-color: transparent;
+	width: 75%;
+	height: 146%;
+
+}
+
+.card.text-white.shadow-lg.hello {
+	margin-top: 26%;
+	margin-left: 87%;
+}
+
+.img-thumbnail.mx-auto.d-block {
+	margin: 70px;
+}
+
+.img-thumbnail {
+	padding: .25rem;
+	/* background-color: #fff; */
+	/* border: 1px solid #dee2e6; */
+	border-radius: .25rem;
+	max-width: 100%;
+	height: auto;
+}
+
+/* .card.bg-secondary.text-white .{
+	margin-top: -15%;
+} */
+
+.navbar.navbar-expand-sm.navbar-dark {
+	border-bottom: 3px solid white;
+	background-color: #2F8CA6;
+}
+
+.form-label.fw-light.mb-2 {
+	padding-bottom: 9px;
+	margin-left: -320px;
+}
+
+.text-white-50.mb-5 {
+	margin-left: 22px;
+}
+
+.form-label {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 27px;
+	line-height: 25px;
+	/* color: white; */
+	margin-left: 39px;
+	margin-bottom: 17px;
+}
+
+.img-thumbnail {
+	max-height: 241px;
+	max-width: 290px;
+	margin-top: 11%;
+}
+
+.prediction {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 27px;
+	line-height: 25px;
+	/* color: white; */
+	margin-left: 38%;
+	margin-top: 26px;
+	max-width: 396px;
+	padding: 10px;
+	color:white
+  }
+
+.form-control.bg-info {
+	margin-bottom: 15px;
+}
+

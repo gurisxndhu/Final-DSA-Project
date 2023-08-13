@@ -1,0 +1,24 @@
+
+{% extends "layout.html" %}
+
+<!-- {% block heading %}
+<li class="nav-item text-light">Cat vs Dog</li>
+{% endblock heading %} -->
+
+{% block active %}
+<li class="nav-item"><a href="/" class="nav-link active">Home</a></li>
+<li class="nav-item"><a href="/teams" class="nav-link ">About Team</a></li>
+<li class="nav-item"><a href="/project" class="nav-link ">About Project</a></li>
+
+
+{% endblock active %}
+
+{% block content %}
+<div class="col-12 col-md-8 col-lg-6 col-xl-5">
+    <div class=" card  text-white shadow-lg hello" >
+        <img src="{{ image }}" class="img-thumbnail mx-auto d-block" >
+        <p style="text-align:center">AI GUESS: That looks like a {{answer}} to me!</p>
+
+    </div>
+
+{% endblock content %}

@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+<!-- {% block heading %}
+<li class="nav-item text-light">Cat vs Dog</li>
+{% endblock heading %} -->
+
+{% block active %}
+<li class="nav-item"><a href="/" class="nav-link active">Home</a></li>
+<li class="nav-item"><a href="/teams" class="nav-link ">About Team</a></li>
+<li class="nav-item"><a href="/project" class="nav-link ">About Project</a></li>
+
+
+{% endblock active %}
+
+{% block content %}
+<div class="d-flex justify-content-start " style="margin-top: 120px;margin-left: 450px;">
+<div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class=" card  text-white shadow-lg" style="width: 700px;" >
+            <div class="card-body p-5 ">
+               <p> CIFAR10CNN is a Convolutional Neural Network trained on the CIFAR10 dataset.
+CIFAR10CNN is trained to recognize the difference between the 10 categories: </p>
+                <ul>
+                    <li>Airplane</li>
+                    <li>Car/Automobile</li>
+                    <li>Bird</li>
+                    <li>Cat</li>
+                    <li>Deer</li>
+                    <li>Dog</li>
+                    <li>Frog</li>
+                    <li>Horse</li>
+                    <li>Ship</li>
+                    <li>Semitruck</li>
+                </ul>
+                <hr>
+<p>Choose a file containing one of these objects and submit to continue.
+You can also download the model used, from the link at end of the page.
+Firstly choose am image you want to test by clicking on "Choose File" and then click on "Submit" button besides Choose file option.
+Please upload an image in the following formats only PNG, JPG, and JPEG. </p>
+                <button type="button" class="btn btn-warning" ><a href="/models" style="color:white;text-decoration:none">Download Model</a></button>
+            </div>
+          </div>
+</div>
+</div>
+{% endblock content %}

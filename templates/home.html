@@ -1,0 +1,47 @@
+
+
+
+{% extends "layout.html" %}
+
+<!-- {% block heading %}
+<li class="nav-item text-light">Cat vs Dog</li>
+{% endblock heading %} -->
+
+{% block active %}
+<li class="nav-item"><a href="/" class="nav-link active">Home</a></li>
+<li class="nav-item"><a href="/teams" class="nav-link ">About Team</a></li>
+<li class="nav-item"><a href="/project" class="nav-link ">About Project</a></li>
+
+
+{% endblock active %}
+
+{% block content %}
+
+  <div class="d-flex justify-content-center ">
+
+
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class=" card  text-white shadow-lg" >
+            <div class="card-body p-5 text-center">
+              <h2 class="fw-light mb-2 text-uppercase">welcome</h2>
+              <p class="text-white-50 mb-5">to the CIFAR10 Image Classification!</p>
+              <hr>
+                <form action="/success" method="post" enctype="multipart/form-data">
+                    <div class="mb-3 mt-3">
+                        <label class=" fw-light mb-2 ">Select Your Image</label>
+                        <input type="file" name="file"/>
+                    </div>
+
+                        <button class="btn btn-outline-light btn-lg px-5" type="submit">Submit</button>
+                </form>
+
+
+
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+{% endblock content %}
+

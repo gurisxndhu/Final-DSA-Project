@@ -1,0 +1,40 @@
+
+{% extends "layout.html" %}
+
+<!-- {% block heading %}
+<li class="nav-item text-light">Cat vs Dog</li>
+{% endblock heading %} -->
+
+{% block active %}
+<li class="nav-item"><a href="/" class="nav-link active">Home</a></li>
+<li class="nav-item"><a href="/teams" class="nav-link ">About Team</a></li>
+<li class="nav-item"><a href="/project" class="nav-link ">About Project</a></li>
+
+
+{% endblock active %}
+
+{% block content %}
+
+<div class="d-flex justify-content-center ">
+
+
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class=" card  text-white shadow-lg" >
+            <div class="card-body p-5 ">
+              <h2 class="fw-light mb-2 text-uppercase" style="text-align:center">our team</h2>
+              <p class="text-white-50 mb-5" style="text-align:center">for this final project!</p>
+              <hr>
+                <ul class="list-group list-group-light">
+                    <li class="list-group-item text-white-50" style="background-color:transparent">Mandeep Singh Sawhney</li>
+  <li class="list-group-item text-white-50" style="background-color:transparent">Gurinder Singh Sandhu</li>
+  <li class="list-group-item text-white-50" style="background-color:transparent">Manu Shrivastava</li>
+  <li class="list-group-item text-white-50" style="background-color:transparent">Arinze Okafor</li>
+  <li class="list-group-item text-white-50" style="background-color:transparent">Yucheng Yu</li>
+                     <li class="list-group-item text-white-50" style="background-color:transparent">Jenshi Patel</li>
+
+</ul>
+
+            </div>
+          </div>
+        </div>
+    {% endblock content %}
